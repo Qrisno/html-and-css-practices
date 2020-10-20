@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="/registration" method="post">
+        <label>
+            Firstname
+            <input type="text" name="name">
+        </label>
+        <br>
+        <label>
+            Lastname
+            <input type="text" name="surname">
+        </label>
+        <br>
+        <label>
+            Password
+            <input type="Password" name="Password" required>
+        </label>
+
+
+        <br>
+        <h1>Favourites</h1>
+        <label>
+            Tesla
+            <input type="checkbox" name="Tesla">
+        </label>
+        <label>
+            Porsche
+            <input type="checkbox" name="Porsche">
+        </label>
+
+        <label>
+            BMW
+            <input type="checkbox" name="BMW">
+        </label>
+
+        <label>
+            Mercedes
+            <input type="checkbox" name="Mercedes">
+        </label>
+
+        <br>
+
+        <h1>My Favorite Car</h1>
+
+
+        <input id="m" type="radio" name="Tesla">
+        <label for="m">Tesla</label>
+        <input id="s" type="radio" name="Tesla">
+        <label for="s">sd</label>
+        <input id="l" type="radio" name="Tesla">
+        <label for="l">sa</label>
+        <input id="p" type="radio" name="Tesla">
+        <label for="p">Tesla</label>
+
+
+        <br>
+        <textarea cols="50" rows="5"></textarea>
+        <br>
+        <input id='num' type="number" name="number" min="3" max="6">
+        <label for="num">Number</label>
+        <br>
+        <input type="file" name="file">FIle
+
+        <br>
+        <input id="date" type="date" name="">
+        <label for="date">Date</label>
+        <br>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
