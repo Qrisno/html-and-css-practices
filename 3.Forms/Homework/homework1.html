@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form 1</title>
+    <style type="text/css">
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form align='center' action="" method="get">
+        <label for="phone"><span>*</span>Phone: </label>
+        <input id="phone" type="tel" name="number" required>
+        <br>
+        <br>
+        <br>
+        <label for="mail"><span>*</span>E-mail: </label>
+        <input id="mail" type="email" name="mail" required>
+        <br>
+        <br>
+        <br>
+        <label for="pass"><span>*</span>Password: </label>
+        <input id="pass" type="Password" name="Password" required>
+        <br>
+        <br>
+        <br>
+        <label for="Cpass"><span>*</span>Confirm Password: </label>
+        <input id="Cpass" type="Password" name="CPassword" required>
+        <br>
+        <br>
+        <br>
+        <label for="nick"><span>*</span>Nickname: </label>
+        <input id="nick" type="text" name="Nickname" required>
+        <br>
+        <br>
+        <br>
+        <label for="residance"><span>*</span>Habitual Residance: </label>
+        <select id="residance" required>
+            <option selected>Zheijang/Hangzhou/West Lake</option>
+            <option value="Zheijang">Zheijang</option>
+            <option value="Hangzhou">Hangzhou</option>
+            <option value="West Lake">West Lake</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="web"><span>*</span>Website: </label>
+        <input id="web" type="url" name="web" placeholder="Website" required>
+        <br>
+        <br>
+        <input id="agreement" type="checkbox" name="checkbox" required>
+        <label for="agreement">I have read the <a href="https://www.google.com">agreement</a> </label>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
