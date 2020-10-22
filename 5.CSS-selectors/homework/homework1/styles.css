@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/c/25/palacio-museo-cerralbo-en-madrid-muzei-rospis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    transition: 1s black;
+    color: black;
+}
+
+img:hover {
+    -webkit-box-shadow: 2px -5px 75px 0px rgba(242, 215, 167, 1);
+    -moz-box-shadow: 2px -5px 75px 0px rgba(242, 215, 167, 1);
+    box-shadow: 2px -5px 75px 0px rgba(242, 215, 167, 1);
+}
+
+main img {
+    margin-left: 150px;
+}
+
+h2,
+h1,
+h3,
+h4 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
