@@ -15,11 +15,18 @@ img {
     vertical-align: middle;
 }
 
+.file {
+    position: relative;
+    bottom: 2px;
+}
+
 .first {
     border: 1px solid rgb(196, 195, 195);
     width: 385px;
     display: inline-block;
     margin: 10px 30px 0 10px;
+    position: relative;
+    left: 20px;
 }
 
 p {
