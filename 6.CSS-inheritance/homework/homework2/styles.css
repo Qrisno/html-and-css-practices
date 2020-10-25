@@ -1,0 +1,50 @@
+button {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.primary {
+    background-color: rgb(64, 120, 240);
+    color: white;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
+.default {
+    background-color: white;
+    color: rgb(90, 90, 90);
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 5px;
+}
+
+.dashed {
+    background-color: white;
+    color: rgb(90, 90, 90);
+    border: 1px dashed rgb(180, 179, 179);
+    border-radius: 5px;
+}
+
+.danger {
+    background-color: rgb(243, 242, 242);
+    color: red;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 5px;
+}
+
+.small {
+    width: 30px;
+    height: 30px;
+    font-size: 3px;
+}
+
+.large {
+    width: 180px;
+    height: 80px;
+}
+
+.ghost {
+    background: none;
+}
