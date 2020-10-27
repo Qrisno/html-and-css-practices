@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    width: 960px;
+    height: 1060px;
+    top: 40px;
+    left: 190px;
+}
+
+div {
+    background-color: #E1E1E1;
+    width: 100px;
+    height: 100px;
+}
+
+.row1 {
+    height: 220px;
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row1:last-child {
+    margin-right: 0px;
+}
+
+.row2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row2:first-child {
+    clear: left;
+    float: left;
+}
+
+.row2:last-child {
+    margin-right: 0px;
+}
+
+.row3 {
+    float: left;
+    width: 700px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row3-2 {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.row4-2 {
+    float: left;
+    width: 220;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row4 {
+    float: left;
+    width: 700px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.row5 {
+    float: left;
+    width: 460px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row5-2 {
+    float: left;
+    width: 460px;
+    height: 220px;
+    margin-bottom: 20px;
+}

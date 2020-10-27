@@ -1,0 +1,83 @@
+.main {
+    width: 20%;
+    height: 38.8%;
+    background-color: #E11900;
+}
+
+.row1 {
+    float: left;
+    border-right: 9px solid black;
+    border-bottom: 13px solid black;
+}
+
+.row2 {
+    float: left;
+    width: 24.3%;
+    background-color: #F9F1E4;
+    border-bottom: 13px solid black;
+}
+
+.row3 {
+    height: 21.6%;
+    clear: left;
+    float: left;
+    background-color: #F9F1E4;
+    border-right: 9px solid black;
+    border-bottom: 13px solid black;
+}
+
+.row4 {
+    height: 21.6%;
+    width: 24.3%;
+    float: left;
+    background-color: #F9F1E4;
+    border-bottom: 13px solid black;
+}
+
+.row5 {
+    height: 33.6%;
+    width: 4%;
+    clear: left;
+    float: left;
+    background-color: #FFEC01;
+    border-right: 9px solid black;
+}
+
+.row6 {
+    height: 33.6%;
+    width: 15.3%;
+    float: left;
+    background-color: #F9F1E4;
+    border-right: 9px solid black;
+}
+
+.row7 {
+    position: relative;
+    z-index: 1;
+    height: 56%;
+    width: 100%;
+    background-color: #301D5A;
+    border-bottom: 13px solid black;
+}
+
+.row8 {
+    height: 33.6%;
+    width: 9.8%;
+    float: left;
+    background-color: #F9F1E4;
+    border-left: 9px solid black;
+}
+
+.row9 {
+    position: relative;
+    height: 7.6%;
+    width: 100%;
+    background-color: #F9F1E4;
+    z-index: 1;
+}
+
+.couple {
+    float: left;
+    width: 13.9%;
+    height: 50%;
+}

@@ -1,0 +1,117 @@
+.main {
+    width: 518px;
+    height: 486px;
+    border: 4px solid black;
+    display: flex;
+}
+
+.rectangle {
+    width: 50;
+    height: 132;
+    border: 1px solid black;
+}
+
+.rectangle-1 {
+    width: 50;
+    height: 132;
+    border: 1px solid black;
+}
+
+.small-rectangle {
+    width: 50;
+    height: 90;
+    border: 1px solid black;
+}
+
+.small-rectangle-1 {
+    width: 48;
+    height: 90;
+    border: 1px solid black;
+}
+
+.large-rectangle {
+    width: 154;
+    height: 90;
+    border: 1px solid black;
+}
+
+.large-rectangle-2 {
+    width: 152;
+    height: 90;
+    border: 1px solid black;
+}
+
+.large-rectangle-3 {
+    width: 150;
+    height: 90;
+    border: 1px solid black;
+}
+
+.medium-rectangle {
+    width: 154;
+    height: 40;
+    border: 1px solid black;
+}
+
+.medium-rectangle-1 {
+    width: 150;
+    height: 40;
+    border: 1px solid black;
+}
+
+.square {
+    width: 50;
+    height: 40;
+    border: 1px solid black;
+}
+
+.square-1 {
+    width: 48;
+    height: 40;
+    border: 1px solid black;
+}
+
+.colab {
+    display: flex;
+    flex-direction: column;
+}
+
+.large-cube {
+    width: 100;
+    height: 132;
+    border: 1px solid black;
+}
+
+.turned-rectangle {
+    width: 100;
+    height: 40;
+    border: 1px solid black;
+}
+
+.great-rectangle {
+    height: 174;
+    border: 1px solid black;
+    width: 48;
+}
+
+.double-square {
+    width: 102;
+    height: 40;
+    border: 1px solid black;
+}
+
+.rectangle-4 {
+    width: 202;
+    height: 40;
+    border: 1px solid black;
+}
+
+.merge {
+    display: flex;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
