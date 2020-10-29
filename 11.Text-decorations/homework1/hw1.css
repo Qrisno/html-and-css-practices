@@ -1,0 +1,259 @@
+.container {
+    position: absolute;
+    top: 145.86;
+    left: 372.93;
+    width: 1171.35px;
+    height: 1346.75px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Roboto;
+    color: #2C3E50;
+    position: relative;
+}
+
+.box-1 {
+    position: absolute;
+    width: 1170;
+    height: 204;
+    margin-top: 11px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+}
+
+.box-2 {
+    position: relative;
+    width: 1170;
+    height: 158;
+    margin-top: 24px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    top: 215px;
+}
+
+.box-3 {
+    overflow: hidden;
+    position: relative;
+    width: 1120;
+    height: 158;
+    margin-top: 24px;
+    margin-left: 50px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    top: 215px;
+}
+
+.box-4 {
+    overflow: hidden;
+    position: relative;
+    width: 1120;
+    height: 158;
+    margin-top: 24px;
+    margin-left: 50px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    top: 212px;
+}
+
+.box-5 {
+    position: relative;
+    width: 1170;
+    height: 158;
+    top: 215px;
+    margin-top: 11px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+}
+
+.box-6 {
+    position: relative;
+    width: 1170;
+    height: 158;
+    top: 227px;
+    margin-top: 11px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+}
+
+.square {
+    position: relative;
+    width: 70;
+    height: 70;
+    background-color: #A1B1BC;
+    margin-top: 30;
+    margin-left: 30;
+    border: 3.5px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px 0px #A1B1BC;
+}
+
+.info {
+    width: 1003px;
+    margin-left: 30.5px;
+    margin-top: 15px;
+}
+
+h2 {
+    position: relative;
+    top: 2px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #2C3E50;
+}
+
+.date {
+    font-family: Roboto;
+    font-size: 13px;
+    color: #A1B1BC;
+    position: relative;
+    bottom: 18px;
+}
+
+.message {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    position: relative;
+    bottom: 22px;
+    width: 1003;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    position: relative;
+    top: 23px;
+    left: 1.5px;
+    font-size: 16px;
+    font-family: Roboto;
+    color: #A1B1BC;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    position: relative;
+    top: 16px;
+    right: 1px;
+    width: 60px;
+    height: 24px;
+    background-color: #2C3E50;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 24px;
+}
+
+.container-2 {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 370;
+    height: 50;
+    background-color: #F7F8F9;
+    border: 1px solid #ECF0F1;
+}
+
+input::placeholder {
+    padding-left: 18px;
+    font-size: 14;
+    font-family: Roboto;
+    color: #A1B1BC;
+}
+
+.second {
+    bottom: 39px;
+}
+
+.bottom {
+    position: relative;
+    bottom: 25px;
+}
+
+textarea {
+    position: relative;
+    bottom: 4px;
+    width: 1170;
+    height: 300;
+    background-color: #F7F8F9;
+    border: 1px solid #ECF0F1;
+}
+
+.submit {
+    position: relative;
+    width: 190;
+    height: 50;
+    font-size: 15;
+    top: 15px;
+    letter-spacing: 1.7px;
+}
+
+span {
+    padding-left: 10px;
+}
+
+.box4 {
+    position: relative;
+    bottom: 6px;
+    margin-left: 21px;
+}
+
+.box4-text {
+    position: relative;
+    bottom: 9px;
+}
+
+.colored {
+    background-color: #A1B1BC;
+    border: 1px solid #ECF0F1;
+}
+
+.styled {
+    left: 18px;
+}
+
+.modified {
+    margin-left: 20px;
+}
+
+.mod {
+    width: 933;
+    margin-left: 20px;
+}
+
+.b-1 {
+    right: 30px;
+    top: 13;
+}
+
+.stl {
+    left: 18px;
+}
+
+.repl {
+    right: 30px
+}
+
+.sam {
+    position: relative;
+    bottom: 25px;
+}

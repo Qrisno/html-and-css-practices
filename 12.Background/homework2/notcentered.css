@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(90deg, rgba(72, 149, 226, 0.2), rgba(72, 149, 226, 0.5) 100%), url(img1.png);
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.8) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    position: absolute;
+    top: 51%;
+    left: 330px;
+    font-family: PT sans;
+    color: white;
+    font-size: 140px;
+    z-index: 100;
+    letter-spacing: 28px;
+}
+
+img {
+    position: relative;
+    right: 30px;
+    bottom: 40px;
+    opacity: 0.9;
+}

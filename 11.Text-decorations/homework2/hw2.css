@@ -1,0 +1,258 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        position: absolute;
+        width: 1173.35;
+        height: 1701.95;
+        left: 373.65;
+        top: 147.66;
+    }
+    
+    span {
+        color: #1ABC9C;
+    }
+    
+    p {
+        font-size: 30;
+        font-family: Roboto;
+    }
+    
+    pre {
+        position: relative;
+        bottom: 15px;
+        font-size: 14;
+        font-family: Roboto;
+        color: #A1B1BC;
+        line-height: 23px;
+    }
+    
+    .square {
+        width: 16;
+        height: 16;
+        background-color: #34495E;
+        border: 1px solid #707070;
+        border-radius: 3px;
+    }
+    
+    .square-white {
+        width: 16;
+        height: 16;
+        background-color: white;
+        border: 1px solid #707070;
+        border-radius: 3px;
+    }
+    
+    .list {
+        display: flex;
+    }
+    
+    .list-text {
+        position: relative;
+        left: 19px;
+        bottom: 8px;
+        font-size: 14;
+        font-family: Roboto;
+        color: #A1B1BC;
+        line-height: 30px;
+    }
+    
+    .lists {
+        position: relative;
+        bottom: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .list-2 {
+        position: relative;
+        right: 26px;
+    }
+    
+    .list-3 {
+        position: relative;
+        right: 52px;
+    }
+    
+    .part2 {
+        position: relative;
+        bottom: 32px;
+    }
+    
+    .code {
+        width: 1170;
+        height: 190;
+        background-color: #ECF0F1;
+        position: relative;
+        bottom: 48px;
+        line-height: 24px;
+    }
+    
+    .middle {
+        position: relative;
+        bottom: 38px;
+    }
+    
+    .rect {
+        width: 370;
+        height: 400;
+        background-color: #ECF0F1;
+        position: relative;
+        bottom: 23px;
+    }
+    
+    .part3 {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 106px;
+    }
+    
+    .par {
+        position: relative;
+        right: 5px;
+    }
+    
+    .lift {
+        position: relative;
+        bottom: 53px;
+    }
+    
+    .lift2 {
+        position: relative;
+        bottom: 90px;
+    }
+    
+    .new {
+        width: 1170;
+        height: 50;
+        border: 1px solid #ECF0F1;
+        display: flex;
+        position: relative;
+        bottom: 184px;
+    }
+    
+    .circle {
+        border: 2px solid white;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        position: relative;
+        margin: 4px;
+        left: 9px;
+        top: 8px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .circle.plus:before,
+    .circle.plus:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+    }
+    
+    .circle.plus:before {
+        width: 2px;
+        margin: 2px auto;
+    }
+    
+    .circle.plus:after {
+        margin: auto 2px;
+        height: 2px;
+    }
+    
+    .sqr {
+        width: 50;
+        height: 50;
+        background-color: #34495E;
+    }
+    
+    .sia {
+        position: relative;
+        left: 22px;
+        font-size: 14;
+        bottom: 18px;
+        font-family: Roboto;
+        line-height: 20px;
+        color: #A1B1BC;
+    }
+    
+    a {
+        color: #1ABC9C;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .info {
+        width: 1003px;
+        margin-left: 30.5px;
+        margin-top: 15px;
+    }
+    
+    .date {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 100;
+        color: #A1B1BC;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .message {
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 24px;
+        color: #A1B1BC;
+        position: relative;
+        bottom: 22px;
+        right: 5px;
+        width: 1003;
+    }
+    
+    .bigsquare {
+        box-sizing: initial;
+        position: relative;
+        width: 100;
+        height: 100;
+        background-color: #A1B1BC;
+        margin-top: 30;
+        margin-left: 30;
+        border: 3px solid white;
+        border-radius: 3px;
+        box-shadow: 0px 0px 8px 0px #A1B1BC;
+    }
+    
+    .box1 {
+        position: absolute;
+        width: 1170;
+        height: 160;
+        margin-top: 11px;
+        border: 1px solid #ECF0F1;
+        display: flex;
+        bottom: 130px;
+        background-color: #ECF0F1;
+    }
+    
+    h2 {
+        font-family: Roboto;
+        font-size: 18;
+        font-weight: 900;
+        position: relative;
+        right: 3px
+    }
+    
+    .date {
+        position: relative;
+        right: 3px;
+        text-transform: capitalize;
+    }
