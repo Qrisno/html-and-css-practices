@@ -1,0 +1,48 @@
+div {
+    background-color: #FEF8EB;
+    padding: 10px;
+}
+
+.border-right {
+    border-right: 5px solid black;
+}
+
+.border-left {
+    border-left: 5px solid black;
+}
+
+.border-top {
+    border-top: 5px solid black;
+}
+
+.border-bottom {
+    border-bottom: 5px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.375fr 1.45fr 1.25fr 0.925fr;
+    grid-template-rows: 2.525fr 1.435fr 1.8125fr 0.25fr;
+    width: 600px;
+    height: 600px;
+}
+
+.first {
+    grid-column: span 2;
+}
+
+.slim {
+    grid-row: span 2;
+}
+
+.red {
+    background-color: #E21800;
+}
+
+.yellow {
+    background-color: #FEEA00;
+}
+
+.blue {
+    background-color: #311F61;
+}
