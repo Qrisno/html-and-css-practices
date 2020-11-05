@@ -1,0 +1,14 @@
+@import "_palette";
+@import "_reset";
+@import "_base";
+@import "Componenets/Notifications/index.scss";
+.grid {
+    display: grid;
+    grid-template-columns: $mainWidth $mainWidth;
+    grid-row: $mainHeight $mainHeight $mainHeight;
+    grid-column-gap: 30px;
+    grid-row-gap: 28px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}

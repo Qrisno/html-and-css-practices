@@ -1,0 +1,225 @@
+$rad: 50px;
+$font: lato;
+$font-2:fontawesome;
+$bsize:7px;
+$bg-color:#FFC12D;
+$borderCol:#F9B718;
+$faCol:#A47503;
+$fntcol:#2C3E50;
+$bgCol1:#97E411;
+$brdCol1:#7BC200;
+$logobg1:#558502;
+$bgCol2: #FD7761;
+$brdCol2:#F55C43;
+$logobg2:#D52E13;
+$bgCol3:#6FD9FC;
+$brdCol3:#47B4F6;
+$logobg3:#0787D4;
+$bgCol4: #A39CDC;
+$brdCol4:#8781BD;
+$logobg4:#5B568E;
+$Xcol:#CFD2D3;
+$bCol:#E2E6E7;
+$txtCol1:#A1B1BC;
+$x1Col:#B18009;
+$x2Col:#558502;
+$x3Col:#D52E13;
+$x4Col:#0787D4;
+$x5Col:#5B568E;
+$lheight: 26px;
+$size:14px;
+$mainWidth:570px;
+$mainHeight:150px;
+body {
+    position: relative;
+}
+
+.h {
+    color: $fntcol;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: $font;
+    margin-left: 6.2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: $mainWidth $mainWidth;
+    grid-row: $mainHeight $mainHeight $mainHeight;
+    grid-column-gap: 30px;
+    grid-row-gap: 28px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.logo {
+    position: relative;
+    font-size: 24px;
+    line-height: $lheight;
+    width: $rad;
+    margin-right: 3px;
+    height: $rad;
+    background-color: $bg-color;
+    border: $bsize solid $borderCol;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    .fas {
+        position: absolute;
+        color: $faCol;
+        top: 25%;
+        left: 36%;
+        font-size: 24px;
+        font-family: $font-2;
+        font-style: normal;
+    }
+}
+
+.logo1 {
+    @extend .logo;
+    background-color: #97E411;
+    border-color: #7BC200;
+    .fas1 {
+        @extend .fas;
+        top: 20%;
+        left: 25%;
+        color: #558502;
+    }
+}
+
+.logo2 {
+    @extend .logo;
+    background-color: #FD7761;
+    border-color: #F55C43;
+    .fas2 {
+        @extend .fas;
+        top: 20%;
+        color: #D52E13;
+        left: 33%;
+    }
+}
+
+.logo3 {
+    @extend .logo;
+    background-color: #6FD9FC;
+    border-color: #47B4F6;
+    .fas3 {
+        @extend .fas;
+        color: #0787D4;
+    }
+}
+
+.logo4 {
+    @extend .logo;
+    margin-right: 0;
+    margin-left: 10px;
+    background-color: #A39CDC;
+    border-color: #8781BD;
+    .fas4 {
+        @extend .fas;
+        color: #5B568E;
+    }
+}
+
+.window {
+    position: absolute;
+    width: 470px;
+    height: $mainHeight;
+    top: 2%;
+    left: 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header {
+    color: $fntcol;
+    font-family: $font;
+    line-height: $lheight;
+    font-weight: 900;
+    font-size: $size;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.par {
+    color: $fntcol;
+    font-size: $size;
+    font-family: $font;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+@mixin cont($bgcol) {
+    background-color: $bgcol;
+}
+
+;
+.container {
+    @include cont($bg-color);
+    position: relative;
+    width: $mainWidth;
+    height: $mainHeight;
+    border: 1px solid #E2E6E7;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container1 {
+    @extend .container;
+    @include cont($bgCol1);
+}
+
+.container2 {
+    @extend .container;
+    @include cont($bgCol2);
+}
+
+.container3 {
+    @extend .container;
+    @include cont($bgCol3);
+}
+
+.lrow {
+    @extend .container;
+    @include cont($bgCol4);
+    width: 1170px;
+    grid-column: span 2;
+    .lwindow {
+        @extend .window;
+        justify-content: center;
+        width: 1170px;
+        left: 0.05%;
+        .px20 {
+            width: 28px;
+        }
+    }
+}
+
+.x {
+    position: absolute;
+    right: 20px;
+    .x1 {
+        font-size: $size;
+        font-family: $font-2;
+        color: $x1Col;
+        font-style: normal;
+    }
+    .x2 {
+        @extend .x1;
+        color: $x2Col;
+    }
+    .x3 {
+        @extend .x1;
+        color: $x3Col;
+    }
+    .x4 {
+        @extend .x1;
+        color: $x4Col;
+    }
+    .x5 {
+        @extend .x1;
+        color: $x5Col;
+    }
+}

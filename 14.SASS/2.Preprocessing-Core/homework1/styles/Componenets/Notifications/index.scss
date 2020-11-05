@@ -1,0 +1,155 @@
+$rad: 50px;
+$font: lato;
+$font-2:fontawesome;
+$bsize:7px;
+$lheight: 26px;
+$size:14px;
+$mainWidth:570px;
+$mainHeight:150px;
+body {
+    position: relative;
+}
+
+.h {
+    color: $fntcol;
+    font-size: 30px;
+    font-family: $font;
+    margin-top: 1%;
+    margin-left: 6.5%;
+}
+
+.logo {
+    position: relative;
+    font-size: 24px;
+    line-height: $lheight;
+    width: $rad;
+    margin-right: 3px;
+    height: $rad;
+    background-color: $bg-color;
+    border: $bsize solid $borderCol;
+    border-radius: 50%;
+    .fas {
+        position: absolute;
+        color: $faCol;
+        top: 25%;
+        left: 36%;
+        font-size: 24px;
+        font-family: $font-2;
+        font-style: normal;
+    }
+}
+
+.logo1 {
+    @extend .logo;
+    background-color: $bgCol1;
+    border-color: $brdCol1;
+    .fas1 {
+        @extend .fas;
+        top: 20%;
+        left: 25%;
+        color: $logobg1;
+    }
+}
+
+.logo2 {
+    @extend .logo;
+    background-color: $bgCol2;
+    border-color: $brdCol2;
+    .fas2 {
+        @extend .fas;
+        top: 20%;
+        color: $logobg2;
+        left: 33%;
+    }
+}
+
+.logo3 {
+    @extend .logo;
+    background-color: $bgCol3;
+    border-color: $brdCol3;
+    .fas3 {
+        @extend .fas;
+        color: $logobg3;
+    }
+}
+
+.logo4 {
+    @extend .logo;
+    margin-right: 0;
+    margin-left: 10px;
+    background-color: $bgCol4;
+    border-color: $brdCol4;
+    .fas4 {
+        @extend .fas;
+        color: $logobg4;
+    }
+}
+
+.window {
+    position: absolute;
+    width: 470px;
+    height: $mainHeight;
+    top: 2%;
+    left: 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .texts {
+        margin-bottom: 10px;
+    }
+}
+
+.header {
+    color: $fntcol;
+    font-family: $font;
+    line-height: $lheight;
+    font-weight: 900;
+    font-size: $size;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.par {
+    font-size: $size;
+    font-family: $font;
+    line-height: 24px;
+    color: $txtCol1;
+    margin-top: 5px;
+}
+
+.container {
+    position: relative;
+    width: $mainWidth;
+    height: $mainHeight;
+    border: 1px solid $bCol;
+    border-radius: 10px;
+    display: flex;
+}
+
+.lrow {
+    @extend .container;
+    width: 1170px;
+    grid-column: span 2;
+    .lwindow {
+        @extend .window;
+        justify-content: center;
+        width: 1170px;
+        left: 0.05%;
+        .px20 {
+            width: 28px;
+        }
+    }
+}
+
+.x {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    .x1 {
+        font-size: $size;
+        font-family: $font-2;
+        color: $Xcol;
+        font-style: normal;
+    }
+}
